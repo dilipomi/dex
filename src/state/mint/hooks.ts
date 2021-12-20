@@ -7,7 +7,7 @@ import {
   Percent,
   Price,
   TokenAmount
-} from '@violeta.at.bww/dex-course-u-exchange-sdk'
+} from '@dilipomi/u-exchange-sdk'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { PairState, usePair } from '../../data/Reserves'

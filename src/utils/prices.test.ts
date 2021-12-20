@@ -7,7 +7,7 @@ import {
   TokenAmount,
   Trade,
   TradeType
-} from '@violeta.at.bww/dex-course-u-exchange-sdk'
+} from '@dilipomi/u-exchange-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

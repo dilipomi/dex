@@ -1195,6 +1195,19 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@dilipomi/u-exchange-sdk@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@dilipomi/u-exchange-sdk/-/u-exchange-sdk-1.1.5.tgz#406b971aba033482a53587b2ffd0c234034a25ad"
+  integrity sha512-W6/AY0HyQw8AF8d0YCOc8MoIdLT6I1ElnU0de3izIZszSHfU6NTeEzf4E9HMTohTXLzdQln6XsP9zgv+x97OCA==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://registry.npmjs.org/@emotion/cache/-/cache-10.0.29.tgz"
@@ -2744,19 +2757,6 @@
   dependencies:
     "@uniswap/lib" "1.1.1"
     "@uniswap/v2-core" "1.0.0"
-
-"@violeta.at.bww/dex-course-u-exchange-sdk@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/@violeta.at.bww/dex-course-u-exchange-sdk/-/dex-course-u-exchange-sdk-1.0.6.tgz"
-  integrity sha512-RoTUi0hml+4AqUmn+w8LdR5dwhOyixuG/x8CIK0vlBx8AAIt0McAymR+vM59cxl3l/O160CToVid7od9/5qoog==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 "@walletconnect/client@^1.1.1-alpha.0":
   version "1.1.1-alpha.0"

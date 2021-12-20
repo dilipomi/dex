@@ -6,7 +6,7 @@ import {
   Token,
   TokenAmount,
   WETH
-} from '@violeta.at.bww/dex-course-u-exchange-sdk'
+} from '@dilipomi/u-exchange-sdk'
 
 export function wrappedCurrency(currency: Currency | undefined, chainId: ChainId | undefined): Token | undefined {
   return chainId && currency === ETHER ? WETH[chainId] : currency instanceof Token ? currency : undefined

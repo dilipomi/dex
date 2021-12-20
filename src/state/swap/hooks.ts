@@ -9,7 +9,7 @@ import {
   Token,
   TokenAmount,
   Trade
-} from '@violeta.at.bww/dex-course-u-exchange-sdk'
+} from '@dilipomi/u-exchange-sdk'
 import { ParsedQs } from 'qs'
 import { useCallback, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
