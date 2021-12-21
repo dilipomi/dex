@@ -14,6 +14,8 @@ export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
 export { PRELOADED_PROPOSALS } from './proposals'
 
+
+console.log("DANChainId: "+JSON.stringify(ChainId));
 // a list of tokens by chain
 type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
@@ -385,7 +387,8 @@ export const CHAIN_INFO: ChainInfo = {
     label: 'xDai',
     explorer: 'https://blockscout.com/xdai/mainnet/',
     nativeCurrency: { name: 'xDai', symbol: 'xDAI', decimals: 18 },
-    rpcUrls: ['https://rpc.xdaichain.com/']
+    rpcUrls: ['https://rpc.xdaichain.com/'],
+	 logoUrl: EthereumLogo,
   },
   [ChainId.POLYGON]: {
     label: 'Polygon Mainnet',

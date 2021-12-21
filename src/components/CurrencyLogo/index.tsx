@@ -52,6 +52,8 @@ export default function CurrencyLogo({
     }
     return []
   }, [currency, uriLocations])
+//console.log("DAN "+JSON.stringify(currency));
+
 
   if (currency === ETHER) {
     console.log(ETHER.symbol)

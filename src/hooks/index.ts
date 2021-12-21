@@ -50,7 +50,7 @@ export function useEagerConnect() {
           injected.getChainId().then(chainId => {
             const cId = Number(chainId)
             ETHER.change(cId)
-            console.log(cId)
+          //  console.log(cId)
           })
         } catch (error) {
           console.log('Failed to set chain')
